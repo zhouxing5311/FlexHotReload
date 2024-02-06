@@ -1,0 +1,31 @@
+PODS:
+  - FlexHotReload (0.0.1):
+    - FlexLib
+  - FlexLib (3.2.1):
+    - FlexLib/standard (= 3.2.1)
+  - FlexLib/standard (3.2.1):
+    - FlexLib/standard/no-arc (= 3.2.1)
+    - FlexLib/yoga
+  - FlexLib/standard/no-arc (3.2.1):
+    - FlexLib/yoga
+  - FlexLib/yoga (3.2.1)
+
+DEPENDENCIES:
+  - FlexHotReload (from `./`)
+  - FlexLib
+
+SPEC REPOS:
+  trunk:
+    - FlexLib
+
+EXTERNAL SOURCES:
+  FlexHotReload:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  FlexHotReload: cee45bc4cecd3bd51c7c9d95a2d89d4f76d5823b
+  FlexLib: 2a1869454d95f68cd18c0e5b4da33601b5ead4c5
+
+PODFILE CHECKSUM: bd28e608ce989dad92e601d07a5487d8a6001d50
+
+COCOAPODS: 1.11.3

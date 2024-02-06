@@ -1,0 +1,12 @@
+<!-- BHRoomCell -->
+<UIView attr="bgColor:#00FF00">
+    <UIView layout="flexDirection:row,height:30,margin:18/22/18/0" attr="bgColor:orange">
+        <UILabel layout="flex:1,marginRight:12" attr="fontSize:14,color:#0D0D1A,linesNum:1,lineBreakMode:truncatingTail,text:都觉得记得记得跟进过"/>
+        <UILabel layout="marginLeft:4" attr="fontSize:14,color:#B1B1B8,linesNum:1,text:6人"/>
+        <UILabel layout="marginLeft:4" attr="fontSize:14,color:#B1B1B8,linesNum:1,text:断掉的"/>
+    </UIView>
+    <FlexContainerView layout="height:30,margin:18/9/18/0,flexDirection:row,justifyContent:space-between" attr="borderRadius:2,borderColor:#C3C3D0,borderWidth:*1,masksToBounds:true">
+    </FlexContainerView>
+    <FlexContainerView layout="height:30,margin:18/2/18/0,flexDirection:row">
+    </FlexContainerView>
+</UIView>
