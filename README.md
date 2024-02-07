@@ -88,10 +88,7 @@ echo "${local_ip}" > "local_mac_ip.txt"
 ```
 
 ## 使用效果
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="./images/demo.mp4" type="video/mp4">
-</videos>
-
+<video src='./images/demo.mp4' width=600/>
 
 ## 注意事项
 
