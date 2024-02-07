@@ -1,5 +1,5 @@
 <!-- BHRoomCell -->
-<UIView layout="flex:1" attr="bgColor:#00FF00">
+<UIView layout="flex:1" attr="bgColor:#FFFF00">
     <UIView layout="flexDirection:row,height:30,margin:20/20/20/0" attr="bgColor:orange">
         <UILabel layout="flex:1,marginRight:12" attr="fontSize:14,color:#0D0D1A,linesNum:1,lineBreakMode:truncatingTail,text:都觉得记得记得跟进过"/>
         <UILabel layout="marginLeft:4" attr="fontSize:14,color:#B1B1B8,linesNum:1,text:6人"/>
