@@ -3,14 +3,13 @@
 //  BossHi-RD
 //
 //  Created by 周兴 on 2022/7/21.
-//  Copyright © 2022 xucg. All rights reserved.
 //
 
 #import "FlexNode+Local.h"
 #import "FlexHotReloadUtil.h"
 #import "FlexSocketManager.h"
 #import "NSObject+AM.h"
-#import "FlexRootView.h"
+#import <FlexLib/FlexRootView.h>
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector"

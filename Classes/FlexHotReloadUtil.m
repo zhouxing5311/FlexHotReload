@@ -3,11 +3,9 @@
 //  BossHi-RD
 //
 //  Created by 周兴 on 2022/7/21.
-//  Copyright © 2022 xucg. All rights reserved.
 //
 
 #import "FlexHotReloadUtil.h"
-#import "FlexRootView.h"
 #import "FlexSocketManager.h"
 
 //flex xml资源缓存

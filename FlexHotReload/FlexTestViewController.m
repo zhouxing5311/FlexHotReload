@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     self.testView = ({
-        FlexTestView *testView = [[FlexTestView alloc] initWithFrame:CGRectMake(50, 200, UIScreen.mainScreen.bounds.size.width - 100, 100)];
+        FlexTestView *testView = [[FlexTestView alloc] initWithFrame:CGRectMake(50, 200, UIScreen.mainScreen.bounds.size.width - 100, 200)];
         testView;
     });
     [self.view addSubview:self.testView];
