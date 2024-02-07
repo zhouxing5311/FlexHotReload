@@ -13,6 +13,7 @@
 ## 原理
 
 热重载能力依赖mac端程序[FileWatcher](https://github.com/zhouxing5311/FileWatcher)。FileWatcher提供对xml资源的文件变动监听、通过http服务的形式访问xml、以及获取指定目录下的xml资源。
+
 ![image](./images/FileWatcher.jpg) 
 
 FlexLib在构建视图树时，加载xml资源的代码逻辑在`internalLoadRes:Owner:`方法中。`FlexHotReload` 核心思想就是hook该加载方法，让该方法在本地xml服务资源可用时加载该服务资源，从而实现热重载的能力。
