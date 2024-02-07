@@ -88,7 +88,7 @@ echo "${local_ip}" > "local_mac_ip.txt"
 ```
 
 ## 使用效果
-<video src='./images/demo.mp4' width=600/>
+查看视频：[视频地址](https://github.com/zhouxing5311/FlexHotReload/raw/main/images/demo.mp4)
 
 ## 注意事项
 
