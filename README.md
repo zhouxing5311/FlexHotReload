@@ -87,19 +87,21 @@ echo "${local_ip}" > "local_mac_ip.txt"
 [FHR]：收到消息：/Users/zhouxing/Desktop/code/Test/TestView.xml //发现文件变更，下次请求该xml会重新走在线资源
 ```
 
-## 使用效果
-查看视频：[视频地址](https://github.com/zhouxing5311/FlexHotReload/raw/main/images/demo.mp4)
+
+
+## 开始使用
+
+编辑完xml后**command+s**保存当前xml，让FileWatcher监听到xml变动，此时FileWatcher图标会短暂变绿并变回黄色。此时退出当前页面再重新进入该页面，就能看到最新的效果了。
+
+**使用效果视频：[视频地址](https://github.com/zhouxing5311/FlexHotReload/raw/main/images/demo.mp4)**
+
+
 
 ## 注意事项
 
 - 热重载能力目前只在debug模式下生效，可能会影响xml页面首次加载速度（xml有了缓存之后会和未开启热重载加载速度一致）
-
-- 当编辑完xml后记得先command+s保存当前xml，让FileWatcher监听到xml变动，这样重新加载该xml时就能使用最新的资源了（状态栏图标会短暂变绿并变回黄色）
-
 - 目前FileWatcher开启后会占用localhost的8000端口（后期增加自定义端口能力）
-
 - 可通过控制台过滤[FHR]，进行热重载相关日志的查看
-
 - 当网络发生变动时app与FileWatcher之间的链接会中断，建议通过AFN等手段增加以下网络监控方法，网络变动时进行updateMacIpNormal方法调用。方法内部会重新更新ip是否可用以及重连socket
 
 ```objective-c
