@@ -26,7 +26,7 @@ FlexLib在构建视图树时，加载xml资源的代码逻辑在`internalLoadRes
 
 ## 使用方法
 
-### 源码或pod依赖
+### 源码或pod依赖（请配置在debug模式下）
 
 ```
 pod 'FlexHotReload', '~> 0.0.1'
